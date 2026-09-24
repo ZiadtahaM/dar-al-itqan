@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dar Al Itqan | Redux</title>
+<style>
+  :root { --surface: #0f172a; --text: #f8fafc; --brand: #38bdf8; --font-sans: system-ui, -apple-system, sans-serif; }
+  body { margin: 0; padding: 0; background: var(--surface); color: var(--text); font-family: var(--font-sans); }
+  .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+  .header { border-bottom: 1px solid #1e293b; padding-bottom: 2rem; margin-bottom: 2rem; contain: content; }
+  h1 { font-size: clamp(2.5rem, 6vw, 5rem); letter-spacing: -0.05em; font-weight: 900; line-height: 1.1; margin: 0; }
+  .tagline { color: var(--brand); font-weight: bold; text-transform: uppercase; letter-spacing: 0.1em; }
+  .responsive-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 2rem; }
+  .panel { background: #1e293b; padding: 2rem; border-radius: 4px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="tagline">System Active</div>
+      <h1>Dar Al Itqan</h1>
+    </div>
+    <div class="responsive-grid">
+      <div class="panel">
+        <h3>Metrics</h3>
+        <p>System operating at peak efficiency.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
