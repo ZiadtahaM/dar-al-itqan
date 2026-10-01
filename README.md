@@ -1,5 +1,13 @@
 # Dar Al-Itqan Real Estate Web Platform (دار الإتقان للعقارات)
 
+
+## Visual Preview
+
+<div align="center">
+  <img src="docs/images/preview.png" alt="Dar Al-Itqan Educational Management Portal Interface Preview" width="100%" style="border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);" />
+</div>
+
+
 Bilingual Arabic right-to-left (RTL) property catalog, corporate showcase, and real estate services web portal.
 
 ```mermaid
